@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #603808;
+  color: #ffedd8;
+}
+
+.container {
+  background-image: linear-gradient(rgb(207, 65, 65), black);
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sun {
+  background-color: #8b5e34;
+  width: 25%;
+  height: 350px;
+  padding: 20px;
+  margin: 30px;
+  color: #ffedd8;
+  border-radius: 20px;
+  cursor: no-drop;
+}
+
+.sun img {
+  width: 100%;
+}

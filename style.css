@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+}
+
+.midle {
+  font-size: 50px;
+  color: #ffedd8;
+}
+
+.tap {
+  transition: all 1s;
+}
+
+.tap :hover {
+  background-color: rgb(199, 61, 61);
+  transition: all 1s;
+}
+
+.tap :active {
+  background-color: rgb(87, 27, 27);
+}
